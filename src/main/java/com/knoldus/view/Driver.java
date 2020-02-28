@@ -20,7 +20,8 @@ public class Driver {
         System.out.println(details);
 
         System.out.println("-------------Question 2--------------");
-        System.out.println(getCities());
+        List<String> citieslist = Arrays.asList("Delhi", "Agra", "Chandigarh", "Chennai", "chattisgarh");
+        System.out.println(getCities(citieslist));
 
         System.out.println("-------------Question 3--------------");
         List<Integer> list = Arrays.asList(1, 2, 3, 4);
